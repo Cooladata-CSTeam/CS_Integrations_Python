@@ -5,7 +5,16 @@
 ### List of currently available integrations:
 
 * Brandwatch
-
 * Bronto
-
-* cdsvcs
+* General API using URL
+* Emarsys	 
+* Facebook	 
+* GoogleAnalytics
+* Instagram	
+* Intercom
+* MyAffiliates
+* Twich
+* Twitter
+* WidgetMedia
+* Youtube
+* Amazon S3
