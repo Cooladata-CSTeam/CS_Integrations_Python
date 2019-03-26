@@ -39,7 +39,7 @@ class XML2DataFrame:
 
 # df_res = pd.DataFrame()
 mydate = str(datetime.date.fromordinal(datetime.date.today().toordinal() - 1))  # Yesterday
-user_agent_url = 'https://admin.secure.acraffiliates.com/feeds.php?FEED_ID=1' + '&JOIN_DATE=' + mydate
+user_agent_url = 'https://admin.secure.myaffiliates.com/feeds.php?FEED_ID=1' + '&JOIN_DATE=' + mydate
 
 xml_data = requests.get(user_agent_url, auth=(USER_NAME, PASSWORD)).content
 xml2df = XML2DataFrame(xml_data)
