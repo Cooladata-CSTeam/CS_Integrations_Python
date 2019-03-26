@@ -1,4 +1,4 @@
-impdG9rOmU5ZmU3YTNmX2MyZjBfNGM4OV9iNWNiXzUwOTA4ZmU1ZTc5NzoxOjAort requests, json, pandas as pd, datetime
+import requests, json, pandas as pd, datetime
 #------Configurations------
 headers =  {'Accept': 'application/json', 'Authorization':'Bearer <YOUR TOKEN>'}
 #---dataframe---#
