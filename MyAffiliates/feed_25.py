@@ -33,7 +33,7 @@ class XML2DataFrame:
 from_date = str(datetime.date.fromordinal(datetime.date.today().toordinal() - 1))  # Yesterday
 to_date = str(datetime.date.fromordinal(datetime.date.today().toordinal() - 1))  # Yesterday
 
-affiliates_feed25 = 'https://admin.secure.acraffiliates.com/feeds.php?FEED_ID=25' \
+affiliates_feed25 = 'https://admin.secure.myaffiliates.com/feeds.php?FEED_ID=25' \
                     + '&FROM_DATE=' + from_date \
                     + '&TO_DATE=' + to_date
 
