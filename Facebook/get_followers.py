@@ -4,7 +4,7 @@ import datetime
 import pandas as pd
 
 #---facebook---#
-token='EAANRo7GHhmkBABocUZBIJlEOaXuhhjZAgzLP5FfzRmfXmgM7gtLj3g8Wz4xXr5m13XwSpiX1DVtmruNzYCfnxTd3lxQzZBkryh2QBXarzhmMiv1iN7YF5XeEUBK8Ggv37cQefrnNAGQCs3CeSavIFRHO47IpGfvBZBe44l5FjQZDZD'
+token='<<Your Token >>'
 action="/v3.2/me?fields=id,name,fan_count,instagram_accounts{followed_by_count}"
 
 #---dataframe---#
